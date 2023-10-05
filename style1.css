@@ -14,6 +14,10 @@ BODY {
     color: #33485e;
     text-align: center;
     border-bottom: 1px solid #33485e;
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto; 
+
 }
 
 /*titles*/
@@ -25,7 +29,7 @@ strong {
 }
 
 /*section titles*/
-h2 {
+#sectionheader {
     background-color: #33485e;
     color: white;
     font-size: 1.5em;
