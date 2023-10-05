@@ -8,11 +8,12 @@ BODY {
 }
 
 /*name*/
-h1 {
+#name {
     font-size: 3.5em;
     text-transform: uppercase;
     color: #33485e;
     text-align: center;
+    border-bottom: 1px solid #33485e;
 }
 
 /*titles*/
