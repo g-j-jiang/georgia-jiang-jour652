@@ -39,6 +39,8 @@ strong {
     margin-bottom: 20px;
     margin-right: 0;
     margin-left: 0;
+    width: 70%;
+    min-width: 300px;
 }
 
 /*job titles*/
