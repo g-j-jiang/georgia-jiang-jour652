@@ -64,8 +64,12 @@ BODY {
 }
 
 /*job dates*/
-h5 {
+.date {
     font-weight: 400;
     font-size: 1em;
     font-style: italic;
+}
+
+li {
+    font-size: 1em;
 }
