@@ -35,6 +35,10 @@ strong {
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 /*job titles*/
