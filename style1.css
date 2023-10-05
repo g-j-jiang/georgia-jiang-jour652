@@ -29,7 +29,7 @@ BODY {
 }
 
 /*titles*/
-strong {
+.jobtitle {
     color:#33485e;
     text-transform: uppercase;
     text-align: center;
