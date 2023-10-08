@@ -84,12 +84,6 @@ BODY {
 
 }
 
-.menu {
-    margin: 0 auto;
-    display: inline;
-    padding: 0px;
-    text-align: center;
-}
 
 #degrees {
     margin-top: 5px;
@@ -119,4 +113,11 @@ BODY {
     min-width: 300px;
     margin:0 auto;
     margin-bottom: 30px;
+}
+
+ul { 
+    margin: 0 auto;
+    display: inline;
+    padding: 0px;
+    text-align: center;
 }
