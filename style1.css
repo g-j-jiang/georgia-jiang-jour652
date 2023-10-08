@@ -120,5 +120,8 @@ ul {
     display: inline;
     padding: 0px;
     text-align: center;
+}
+
+li {
     list-style-type: none;
 }
