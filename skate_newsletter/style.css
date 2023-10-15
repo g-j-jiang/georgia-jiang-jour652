@@ -7,7 +7,6 @@
     width: 100%;
     max-width: 500px;
     
-    
 }
 
 .col-md-6 {
@@ -16,6 +15,7 @@
 
 .btn dark {
     margin-top: 25px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
@@ -31,12 +31,14 @@ p {
 
 .bi {
     font-size:3em;
+
     }
   
-    .col-md-4 {
+.col-md-4 {
     text-align: center;
+   
     }
     
-    .bigicon {
+.bigicon {
     font-size:5em;
     }
