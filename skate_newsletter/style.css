@@ -1,21 +1,17 @@
 
 /* styles for the skate news thing */
 
-.bi {
-    font-size:3em;
-    }
-  
-    .col-md-4 {
-    text-align: center;
-    }
-    
-    .bigicon {
-    font-size:5em;
-    }
     
 /* not sure if this is the best way to add the images? */
+
+.col-md-6 {
+    align-items: center;
+
+}
 
 .col-md-6 img {
     width: 100%;
     max-width: 500px;
+    align-items: center;
 }
+
