@@ -15,15 +15,7 @@
     
 /* not sure if this is the best way to add the images? */
 
-.firstimage {
-    content: url(https://images.unsplash.com/photo-1572776685600-aca8c3456337?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1502&q=80);
-    width: 100%;
-    max-width: 500px;
-
-}
-
-.secondimage {
-    content: url(https://images.unsplash.com/photo-1621544402532-78c290378588?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+.col-md-6 img {
     width: 100%;
     max-width: 500px;
 }
