@@ -13,17 +13,27 @@
     text-align: center;
     }
 
-.btn dark {
+.btn {
     margin-top: 25px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Special Elite', sans-serif;
+}
+
+h1 {
+    font-family: 'Special Elite', sans-serif;
 }
 
 h2 {
     text-align: center;
+    font-family: 'Special Elite', sans-serif;
+}
+
+h3 {
+    font-family: 'Special Elite', sans-serif;
 }
 
 p {
     text-align: center;
+    
 }
 .row {
     align-items: center;
@@ -42,3 +52,7 @@ p {
 .bigicon {
     font-size:5em;
     }
+
+.navbar-brand {
+    font-family: 'Special Elite', sans-serif;
+}
