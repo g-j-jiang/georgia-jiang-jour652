@@ -3,6 +3,8 @@ stylesheet.css
 #content {
     margin: 0 auto;
     width: 900px;
+    margin-bottom: 30px;
+    max-width: 1200px;
 }
 
 
@@ -10,14 +12,33 @@ stylesheet.css
     font-family: Helvetica, sans-serif;
     font-size: 14px;
     font-style: italic;
+    
     }
     
 h1 {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px; 
+    font-size: 25px; 
+    margin: 0 auto;
+    background-color: black;
+    color: bisque;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    width: 70%;
+    min-width: 300px;
+    
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 13px;
+}
+
+#photo1 {
+    max-width: 50%;
+    margin: 0 auto;
+
+#photo2 {
+    float: left;
 }
