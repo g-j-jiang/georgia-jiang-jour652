@@ -4,3 +4,20 @@ stylesheet.css
     margin: 0 auto;
     width: 900px;
 }
+
+
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    }
+    
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px; 
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
