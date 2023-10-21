@@ -99,3 +99,8 @@ p {
     text-align: left;
 
 }
+
+.image-container {
+    float:right;
+    padding: 10px;
+}
