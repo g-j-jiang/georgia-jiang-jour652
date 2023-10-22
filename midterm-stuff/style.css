@@ -1,6 +1,6 @@
 /* styles for the midterm article layout */
 
-Body {
+body {
     background-color: black;
     color: white;
 }
@@ -103,4 +103,36 @@ p {
 .image-container {
     float:right;
     padding: 10px;
+}
+
+/* some issues with formatting things in the related links part */
+
+#related-links {
+    text-align: center;
+   
+}
+
+ul { 
+    margin: 0 auto;
+    display: inline;
+    padding: 0px;
+    text-align: center;
+    font-family: serif;
+   
+}
+
+
+li {
+    list-style-type: none;
+    line-height: 150%;
+
+   
+}
+
+a:link {
+    color: lightskyblue;
+}
+
+a:visited {
+    color: rgb(248, 181, 239);
 }
