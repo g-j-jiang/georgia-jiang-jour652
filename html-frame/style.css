@@ -37,5 +37,8 @@ p {
 .footer {
     text-align: center;
     color: white;
+    background-color: black;
+    padding: 20px;
+    
 
 }
