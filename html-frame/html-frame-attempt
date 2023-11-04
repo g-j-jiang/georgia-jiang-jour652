@@ -15,26 +15,6 @@
       <link rel="stylesheet" type="text/css" href="style.css">
    </head>
 
-   <!-- IF NOt USING EXTERNAL STYLESHEET (WHICH YOU SHOULD FOR ALL FUTURE ASSIGNMENTS), THIS IS WHERE STYLES  GO between <style></style>
-   <style>
-      .bi {
-      font-size:3em;
-      }
-      .col-md-4 {
-      text-align: center;
-      }
-      .bigicon {
-      font-size:5em;
-      }
-      .columnstyle {
-      background-color: blue;
-      text-align: right;
-      }
-      .col-md-12 {
-      text-align:  center;
-      }
-   </style>-->
-   <!-- end of style. But, as you can see above, there is an external stylesheet in the <head> providing style instructions. You should be doing that too.  -->
 
    <body>
       <!-- Navbar start-->
