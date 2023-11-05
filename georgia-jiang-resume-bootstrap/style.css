@@ -32,6 +32,7 @@ ul {
     margin: 0 auto;
     display: inline;
     padding: 10px;
+   
     
 }
 
@@ -51,10 +52,12 @@ ul {
 
 .menu li a {
     color:white;
+    
 }
 
 .menu li a:hover {
     color: #8484bf; 
+    font-size: 1em;
 }
 
 h2 {
