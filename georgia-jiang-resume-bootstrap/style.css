@@ -1,25 +1,76 @@
-.headline {
-    font-size: 3em;
-    font-weight: 700;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+body {
+    background-color: black;
+    color: white;
 }
 
-.byline {
-    font-size: 1em;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+
+.image-banner {
+    position: relative;
+    width: 100%;
+}
+
+.image-banner img {
+    width: 100%;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
     text-align: center;
+  }
+  
+  .banner-content h1 {
+    font-size: 6em;
+    font-weight: bold;
+  }
+
+
+ul { 
+    margin: 0 auto;
+    display: inline;
+    padding: 10px;
+    
+}
+
+.menu {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+
+   
+}
+
+.menu li {
+    display: inline;
+
+}
+
+.menu li a {
+    color:white;
+}
+
+.menu li a:hover {
+    color: #8484bf; 
 }
 
 h2 {
     font-weight: 700;
+    text-align: center;
+    padding: 20px;
+   
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 250%;
 
+}
+
+h3 {
+    font-weight:300;
 }
 
 
@@ -32,11 +83,16 @@ p {
     
 }
 
+.col-md-6 {
+    text-align: left;
+}
 
-.col-md-4 {
-    text-align: center;
-   
-    }
+
+.col-md-4 img {
+    width: 100%;
+    max-width: 500px;
+
+}
 
 .footer {
     text-align: center;
@@ -45,4 +101,13 @@ p {
     padding: 20px;
     
 
+}
+
+
+a:link {
+    color: white
+}
+
+a:visited {
+    color: teal;
 }
