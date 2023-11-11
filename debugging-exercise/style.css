@@ -108,6 +108,9 @@ padding-top:1em;
 
 .col-md-6 img {
   margin: 0 auto;
+  padding-left: 100px;
+ 
+
 }
 
 /*not properly structured selector/descriptors*/
