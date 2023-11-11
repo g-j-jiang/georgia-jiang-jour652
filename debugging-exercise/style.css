@@ -102,9 +102,8 @@ padding-top:1em;
 
 .col-md-6 {
   margin-bottom: 4em;
-  padding-top:30px;
-  padding-bottom: 15px;
-  height:100%;
+  max-width: 500px;
+ 
   
 }
 
