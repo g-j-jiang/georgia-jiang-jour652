@@ -29,20 +29,6 @@ p {
 }
 
 
-#photo1 {
-    max-width: 50%;
-    margin: 0 auto;
-    color: gray;
-    font-family: 'Montserrat', sans-serif;
-    font-size:small;
-    
-}
-
-
-.col-md-4 {
-    text-align: center;
-   
-    }
 
 .footer {
     text-align: center;
