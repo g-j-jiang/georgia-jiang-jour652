@@ -13,7 +13,7 @@
 		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Source+Serif+4:ital,opsz@0,8..60;1,8..60&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600;700&family=Source+Serif+4:ital,opsz@0,8..60;1,8..60&display=swap" rel="stylesheet">
 		<!-- Load c3.css -->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
 		<!-- Load our CSS -->
@@ -22,44 +22,32 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
 	</head>
+
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<div class="container-fluid">
-			  <a class="navbar-brand" href="#">G News</a>
-			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			  </button>
-			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-				  <li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
-				  </li>
-				  <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Heat and Inequality</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					  <a class="dropdown-item" href="#">Urban heat islands</a>
-					  <a class="dropdown-item" href="#">The Code Red weekend</a>
-					  <a class="dropdown-item" href="#">Security concerns</a>
-					  <a class="dropdown-item" href="#">Heading off catastrophe</a>
-					  <a class="dropdown-item" href="#">Trees help with heat</a>
-					  <a class="dropdown-item" href="#">Rowhouses in the heat</a>
-					  <a class="dropdown-item" href="#">Coping with the heat</a>
-					</div>
-				  </li>
-				</ul>
-				<form class="d-flex">
-				  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-				  <button class="btn btn-outline-success" type="submit">Search</button>
-				</form>
-			  </div>
-			</div>
-		  </nav>
+			<span class="nav-logo"><span class="red">CODE RED: </span>Baltimore's Climate Divide</span>
+		</nav>
+
+		<!--starting the hero banner container, Baltimore-->
+		<div class="hero-container">
+			<img src="images/baltimore-skyline.jpg" class="hero-image">
+			<p class="caption">Image courtesy of Meghan Avolio, Baltimore Ecosystem Study</p>
+				<div class="overlay">
+					<div class="hero-hed">Heat & Inequality</div>
+					<div class="hero-subhed">In Baltimore, the burden of rising temperatures isn’t shared.</div>
+					<br>
+					<div class="hero-byline">IAN ROUND, JAZMIN CONNER, JERMAINE ROWLEY AND SANDY BANISKY</div>
+				</div>
+		</div>
+
+
 		<!-- Start container -->
 		<div class="container">
-			<p class="text-center hed">Heat and Inequality</p>
-			<p class="text-center byline">IAN ROUND, JAZMIN CONNER, JERMAINE ROWLEY AND SANDY BANISKY</p>
+		
+		
 			<!-- Start chapter -->
 			<div class="row">
+
 				<p class="chapter-head">In urban heat islands, climate crisis hits harder</p>
 					<p>Heat radiates from the asphalt and concrete that cover the streets, the sidewalks, the alleys, even the tiny yards behind the homes in the East Baltimore neighborhood of McElderry Park. Trees are scarce. And air doesn’t move much when it comes up against block after block of rowhouses.</p>
 
@@ -67,6 +55,13 @@
 
 					<p>“Can’t even put your head out the door,” said Tammy Jackson, 48, on a day when the temperature outside hit 100 degrees Fahrenheit and 92 degrees in her home. “This is too much. Oh Lord, this is too much.”</p>
 
+
+					<div class="graphics">
+					<iframe title="Indoor and outdoor heat index during Baltimore heat wave, July 16-22, 2019" aria-label="Interactive line chart" id="datawrapper-chart-tIMiV" src="https://datawrapper.dwcdn.net/tIMiV/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+					</script>
+					</div>
+
+					<br>
 					<p>But it is going to get worse. In McElderry Park and around the world, in communities rich and poor, downtown and in the suburbs, weather disasters loom. And experts are using language ever more dire.</p>
 
 					<p>“The single greatest threat from climate change to people in cities is extreme heat,” said Jad Daley, president and CEO of American Forests, a nonprofit organization dedicated to preserving forests and planting trees.</p>
@@ -181,6 +176,22 @@
 					<p>And summer heat will get more extreme. With every year, researchers warn, temperatures will soar higher and the heat waves will last longer — putting more pressure on city governments to help residents cope.</p>
 
 					<p>Historically, the Baltimore area has averaged about six days a year when the heat index exceeded 100 degrees, according to new research from the Union of Concerned Scientists and the University of Idaho.</p>
+					<br>
+
+					<div class="text-box">
+						<p class="text-box-title">State of the Climate 2018</p>
+						<p class="text-box-intro-text">The American Meteorological Society releases a State of the Climate report each summer summarizing data collected by global environmental monitoring stations around the world. In 2018, here were five key findings.</p>
+						<ol class="text-box-text" style="list-style-type:disc;">
+						  <li><b>2018 was the fourth warmest year,</b> behind only 2016, 2015 and 2017. Since the start of the 21st Century, every year has been hotter than the global average temperature recorded from 1981 to 2010.</li><br>
+						  <li><b>Glaciers have continued to melt for the 30th year in a row.</b> In 2018, approximately one meter of ice melted off the top of the average glacier.</li><br>
+						  <li><b>Sea levels rose for the seventh year in a row.</b> The annual mean sea level is the highest it’s been in 26 years.</li><br>
+						  <li><b>The global average carbon dioxide concentration at Earth’s surface is the highest ever recorded</b> according to data that goes back 800,000 years. Carbon dioxide, methane and nitrous oxide released in the atmosphere continue to increase.</li><br>
+						  <li><b>Arctic air temperatures rose at twice the rate of the rest of the Earth</b> with the five past years’ Arctic temperatures surpassing records since 1900.</li>
+						</ol>
+						<p class="text-box-source-text"><i>Source: American Meteorological Society's <a href="https://www.ametsoc.org/ams/index.cfm/publications/bulletin-of-the-american-meteorological-society-bams/state-of-the-climate/" style="text-decoration: underline;"><b>The State of the Climate in 2018</b></a></i></p>
+					  </div>
+
+					  <br>
 
 					<p>If no action is taken to reduce carbon emissions, by mid-century that figure will rise to more than 37 days annually, according to the researchers. The study defines mid-century as starting in 17 years.</p>
 

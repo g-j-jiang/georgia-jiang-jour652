@@ -1,10 +1,17 @@
+/*body stuff*/
+
 BODY {
   font-family: 'Oswald', sans-serif;
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   
 }
 
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 
 .container {
   text-align:center;
@@ -17,33 +24,76 @@ p{
 
 }
 
+
+/*nav bar stuff*/
 .navbar {
   font-family: 'Oswald', sans-serif;
   color: white;
+  font-weight: 700;
+  padding: 10px;
 
 }
 
-
-.hed {
-  font-size:3em;
-  font-family: 'Oswald', sans-serif;
-  
+.nav-logo {
+  margin: 0 auto;
 }
 
-
-.byline {
-  font-size:1.8em;
-  text-transform:uppercase;
-  margin-top:-10px;
-  font-family: 'Oswald', sans-serif;
-
+.red {
+  color: red;
 }
+/*heading,byline,chapter headline stuff */
 
 .chapter-head {
   font-size:2em;
   font-family: 'Oswald', sans-serif;
   padding-top:20px;
   font-weight:700;
+  
+}
+
+/*stuff for images and captions*/
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-image {
+  max-width: 100%;
+  
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  top:30%;
+  background: black;
+  opacity: 65%;
+  padding: 20px;
+}
+
+
+.hero-hed {
+  font-size:4em;
+  font-family: 'Source serif 4', serif;
+  font-weight: 900;
+  
+}
+
+.hero-subhed {
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif;
+  color: red;
+
+}
+
+.hero-byline {
+  font-size:1em;
+  text-transform:uppercase;
+  margin-top:-10px;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 .stack-image {
@@ -63,21 +113,64 @@ p{
   color:#999;
 }
 
-.text-box {
-  border: 2px solid red;
-  padding: 10px;
+.graphics {
+  padding-bottom: 20px;
 }
 
-.text-box textarea {
-  color: white;
-  background-color: transparent;
-  border: none;
-  outline: none;
-  width: 100%;
-  height: 200px;
+/*text box side bar stuff */
+.text-box{
+  width: 80%;
+  margin: 0 auto;
+  border: solid #F23030 1px;
+  margin-bottom: 20px;
+  
+  
 }
 
+.text-box-title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25em;
+  text-align: center;
+  color:	white;
+  background: #F23030;;
+}
 
+.text-box-text{
+  padding-left: 3em;
+  padding-right: 3em;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  text-align: left;
+  font-weight:300;
+  letter-spacing: .5px;
+  
+  
+}
+
+.text-box-intro-text{
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  text-align: left;
+  letter-spacing: .5px;
+}
+
+.text-box-source-text{
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: 'Oswald', sans-serif;
+  font-size: .8em;
+  text-align: left;
+  letter-spacing: .5px;
+  
+}
+
+.text-box-text li{
+  line-height: 2;
+}
+
+/*footer stuff*/
 .footer {
   background: #000;
   height:100px;
