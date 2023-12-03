@@ -2,8 +2,8 @@
 
 BODY {
   font-family: 'Oswald', sans-serif;
-  background: white;
-  color: black;
+  background: black;
+  color: white;
   
 }
 
@@ -51,7 +51,7 @@ p{
   
 }
 
-/*stuff for images and captions*/
+/*stuff for hero*/
 
 .hero-container {
   position: relative;
@@ -85,6 +85,7 @@ p{
   font-size: 2em;
   font-family: 'Oswald', sans-serif;
   color: red;
+  font-weight:600;
 
 }
 
@@ -96,6 +97,7 @@ p{
 
 }
 
+/*stuff for images*/
 .stack-image {
   width:100%;
   max-width:900px;
@@ -115,13 +117,18 @@ p{
 
 .graphics {
   padding-bottom: 20px;
+  background: lightgray;
+  width: 50%;
+  margin-bottom: 20px;
+  
+
 }
 
 /*text box side bar stuff */
 .text-box{
   width: 80%;
   margin: 0 auto;
-  border: solid #F23030 1px;
+  border: solid red 1px;
   margin-bottom: 20px;
   
   
@@ -132,7 +139,7 @@ p{
   font-size: 1.25em;
   text-align: center;
   color:	white;
-  background: #F23030;;
+  background: red;
 }
 
 .text-box-text{
