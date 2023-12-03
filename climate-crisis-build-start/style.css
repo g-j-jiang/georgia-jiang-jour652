@@ -226,11 +226,11 @@ p{
 /*links*/
 
 a:link {
-  color: red
+  color: white;
 }
 
 a:visited {
-  color: white
+  color: red;
 }
 
 a:hover {
