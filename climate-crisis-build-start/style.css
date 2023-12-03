@@ -185,6 +185,30 @@ p{
   
 }
 
+
+/*pull quote stuff?*/
+.pull-quote {
+  border-left: 4px solid red;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.quote-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+}
+
+.quote-source {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+
 /*footer stuff*/
 .footer {
   background: #000;
