@@ -223,6 +223,20 @@ p{
   color: #fff
 }
 
+/*links*/
+
+a:link {
+  color: red
+}
+
+a:visited {
+  color: white
+}
+
+a:hover {
+  color: orange;
+}
+
 
 
 @media(max-width:550px) {
