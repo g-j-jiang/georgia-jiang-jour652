@@ -127,12 +127,22 @@ BODY {
   
   .graphics {
     padding-bottom: 20px;
-    width: 100%;
+    padding-top: 20px;
+    max-width: 80%;
     margin-bottom: 20px;
-    
-    
-  
+    margin: 0 auto;
   }
+    
+    .graphics2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    max-width: 500px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+
+    }
+  
+
   
   /*text box side bar stuff */
   .text-box{
@@ -192,7 +202,7 @@ BODY {
   
   /*pull quote stuff?*/
   .pull-quote {
-    border-left: 4px solid red;
+    border-left: 4px solid brown;
     padding: 20px;
     margin: 20px 0;
   }
@@ -200,7 +210,7 @@ BODY {
   .quote-text {
     font-size: 24px;
     font-weight: bold;
-    color: red;
+    color: orange;
     text-align: center;
   }
   
@@ -208,7 +218,7 @@ BODY {
     margin-top: 10px;
     font-style: italic;
     font-size: 18px;
-    color: white;
+    color: brown;
     text-align: center;
   }
   
