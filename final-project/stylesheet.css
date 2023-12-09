@@ -139,7 +139,7 @@ BODY {
   .text-box{
     width: 110%;
     margin: 0 auto;
-    border: solid red 1px;
+    border: solid brown 1px;
     margin-bottom: 20px;
     
     
@@ -150,7 +150,7 @@ BODY {
     font-size: 1.5em;
     text-align: center;
     color:	white;
-    background: red;
+    background: brown;
   }
   
   .text-box-text{
